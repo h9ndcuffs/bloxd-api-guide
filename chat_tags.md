@@ -46,10 +46,10 @@ onPlayerChat = (playerId, message) => {
 
     if (Target.includes(plr)) {
         api.broadcastMessage([
-            { str: "𓊈", style: { color: "lime", fontWeight: "bold" } },
+            { str: "[", style: { color: "lime", fontWeight: "bold" } },
             { icon: "star", style: { color: "red" } },
             { str: " Owner", style: { color: "yellow", fontWeight: "bold" } },
-            { str: "𓊉 ", style: { color: "lime", fontWeight: "bold" } },
+            { str: "] ", style: { color: "lime", fontWeight: "bold" } },
             { str: plr, style: { color: "cyan" } },
             { str: ": " + message, style: { color: "white" } }
         ])
